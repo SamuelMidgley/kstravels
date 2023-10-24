@@ -2,14 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet"           href="https://fonts.googleapis.com/css?family=Playfair Display">
     <title>Travel blog</title>
 </head>
 <style>
+    * {
+        font-family: 'Playfair Display', Serif;
+    }
+    
     header {
-        text-align: center;
-        font-size: 1.5rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    .page-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 600;
     }
     
     h1 {
@@ -24,9 +41,10 @@
         gap: 1rem;
     }
     
-    .card {
-        border-radius: 5px;
-        border: 1px solid grey;
+    main {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .inner {
@@ -55,7 +73,14 @@
     }
 </style>
 <body>
-    <header>Sam and Kiara travels</header>
+    <header>
+        <a href="index.html">
+            <div class="page-title">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-2"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3v0a2 2 0 0 1 2 2v0c0 1.1.9 2 2 2v0a2 2 0 0 0 2-2v0c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2v0a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>
+                Sam and Kiara travels
+            </div>
+        </a>
+    </header>
     <main>
         <h1>Blog</h1>
         <div class="container">
