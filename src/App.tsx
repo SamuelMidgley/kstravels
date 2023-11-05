@@ -9,6 +9,7 @@ import {
   WeekThree,
   WeekFour,
   WeekFive,
+  ScrollToTop,
 } from "./components";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

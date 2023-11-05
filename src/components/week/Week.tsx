@@ -1,8 +1,9 @@
 import { format } from "date-fns";
 import profileimg from "@/assets/profile.jpg";
-import { Button } from "../ui/button";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import { Footer } from "../Footer";
+import { Link, useLocation } from "react-router-dom";
+import { buttonVariants } from "../ui/button";
 
 export interface IWeek {
   title: string;
@@ -19,6 +20,10 @@ export function Week({
   imageAlt,
   children,
 }: IWeek) {
+  const maxWeekNum = 5;
+  const location = useLocation();
+  const weekNum = location.pathname.charAt(location.pathname.length - 1);
+
   return (
     <>
       <main>
@@ -37,7 +42,7 @@ export function Week({
               className="sm:aspect-[2/1] object-cover"
             />
             <figcaption className="text-sm mt-3 text-center">
-              Noosa coastal walk
+              {imageAlt}
             </figcaption>
           </figure>
           <div className="thingy">{children}</div>
@@ -51,14 +56,29 @@ export function Week({
           </div>
         </article>
         <div className="max-w-[calc(750px+8vw)] mx-auto px-[4vw] w-full mt-5 flex justify-between">
-          <Button variant="link" className="flex items-center gap-2">
-            <ArrowLeftIcon />
-            Previous post
-          </Button>
-          <Button variant="link" className="flex items-center gap-2">
-            Next post
-            <ArrowRightIcon />
-          </Button>
+          {Number(weekNum) > 1 && (
+            <Link
+              to={`/week/${Number(weekNum) - 1}`}
+              className={`${buttonVariants({
+                variant: "link",
+              })} flex items-center gap-2`}
+            >
+              <ArrowLeftIcon />
+              Previous post
+            </Link>
+          )}
+
+          {Number(weekNum) !== maxWeekNum && (
+            <Link
+              to={`/week/${Number(weekNum) + 1}`}
+              className={`${buttonVariants({
+                variant: "link",
+              })} flex items-center gap-2 ml-auto`}
+            >
+              Next post
+              <ArrowRightIcon />
+            </Link>
+          )}
         </div>
       </main>
       <Footer />
