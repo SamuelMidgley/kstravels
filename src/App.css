@@ -1,0 +1,26 @@
+.thingy {
+    display: grid;
+    grid-template-columns: [full-start] minmax(4vw,auto) [wide-start] minmax(auto,105px) [main-start] min(750px,calc(100% - 8vw)) [main-end] minmax(auto,105px) [wide-end] minmax(4vw,auto) [full-end];
+    line-height: 1.75;
+}
+
+.thingy > * {
+    grid-column: main-start/main-end;
+}
+
+.thingy h2 {
+    margin-top: 40px;
+}
+
+.thingy p {
+    margin-top: 15px;
+}
+
+.thingy figure {
+    width: 100%;
+    margin-top: 40px;
+}
+
+body {
+    font-family: 'mulish';
+}
