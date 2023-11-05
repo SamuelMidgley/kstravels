@@ -1,135 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <!-- ewan smells -->
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet"           href="https://fonts.googleapis.com/css?family=Playfair Display">
-    <title>Sam and Kiara travels</title>
-</head>
-<style>
-    * {
-        font-family: 'Playfair Display', Serif;
-    }
-    
-    header {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-    header a {
-        text-decoration: none;
-        color: black
-    }
-    
-    .page-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 0.5rem;
-        font-weight: 600;
-    }
-    
-    h1 {
-        font-weight: normal;
-    }
-    
-    
-    .container {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    main {
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .inner {
-        padding: 0.5rem;
-        padding-bottom: 0rem;
-    }
-    
-    .image-card {
-        width: 100%;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
-    
-    .inner span {
-        color: grey;
-        font-size: 0.8rem;
-        text-decoration: none;
-    }
-    
-    .inner p {
-        color: black;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-</style>
-<body>
-    <header>
-        <a href="index.html">
-            <div class="page-title">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-2"><path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"/><path d="M7 3.34V5a3 3 0 0 0 3 3v0a2 2 0 0 1 2 2v0c0 1.1.9 2 2 2v0a2 2 0 0 0 2-2v0c0-1.1.9-2 2-2h3.17"/><path d="M11 21.95V18a2 2 0 0 0-2-2v0a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05"/><circle cx="12" cy="12" r="10"/></svg>
-                Sam and Kiara travels
-            </div>
-        </a>
-    </header>
-    <main>
-        <h1>Blog</h1>
-        <div class="container">
-            <a href="weekfive.html">
-                <div class="card">
-                    <img class="image-card" src="assets/week5.jpg" />
-                    <div class="inner">
-                        <span>21st October, 2023</span>
-                        <p>Week 5: Getting some vitamin B-risbane</p>
-                    </div>
-                </div>
-            </a>
-           <a href="weekfour.html">
-               <div class="card">
-                   <img class="image-card" src="assets/week4.jpg" />
-                   <div class="inner">
-                       <span>10th October, 2023</span>
-                       <p>Week 4: Sydney? I hardly know her</p>
-                   </div>
-               </div>
-           </a>
-           
-           <a href="weekthree.html">
-               <div class="card">
-                   <img class="image-card" src="assets/week3.jpg" />
-                   <div class="inner">
-                       <span>2nd October, 2023</span>
-                       <p>Week 3: Melbourne 3 Return of the dream (chocolate)</p>
-                   </div>
-               </div>
-           </a>
-           <a href="weektwo.html">
-               <div class="card">
-               <img class="image-card" src="assets/week2.jpg" />
-               <div class="inner">
-                   <span>25th September, 2023</span>
-                   <p>Week 2: Melbourne 2 Electric boogaloo</p>
-               </div>
-           </div>
-           </a>
-           <a href="weekone.html">
-               <div class="card">
-               <img class="image-card" src="assets/week1.jpg" />
-               <div class="inner">
-                   <span>18th September, 2023</span>
-                   <p>Week 1: Melbourne!!</p>
-               </div>
-            </div>  
-           </a>
-        </div>
-    </main>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam & Kiara's travel blog</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
