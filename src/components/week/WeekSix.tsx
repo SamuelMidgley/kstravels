@@ -66,7 +66,7 @@ export function WeekSix() {
           The smile of a girl looking proudly at her cool rock. it was formed
           from the silica sand on k&apos;gari and compressed with wind/plants. I
           couldn&apos;t take it home because the police would&apos;ve fined me
-          £10k🥴no ta
+          £10k 🥴 no thank u
         </figcaption>
       </figure>
       <figure>
