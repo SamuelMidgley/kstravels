@@ -4,8 +4,37 @@ import week2img from "../assets/week2.jpg";
 import week3img from "../assets/week3.jpg";
 import week4img from "../assets/week4.jpg";
 import week5img from "../assets/week5.jpg";
+import week6img from "../assets/week6.jpg";
 
 const posts: ICardProps[] = [
+  // {
+  //   week: 9,
+  //   title: "The (Mel)bourne Ultimatum",
+  //   datePosted: new Date(2023, 10, 12, 12),
+  //   imageUrl: week5img,
+  //   imageAlt: "Noosa coastal walk",
+  // },
+  // {
+  //   week: 8,
+  //   title: "I Cairns quite believe it",
+  //   datePosted: new Date(2023, 10, 10, 12),
+  //   imageUrl: week5img,
+  //   imageAlt: "Noosa coastal walk",
+  // },
+  // {
+  //   week: 7,
+  //   title: "If you wallaby my lover",
+  //   datePosted: new Date(2023, 10, 8, 12),
+  //   imageUrl: week5img,
+  //   imageAlt: "Noosa coastal walk",
+  // },
+  {
+    week: 6,
+    title: "Whitsundays? Completed it mate",
+    datePosted: new Date(2023, 10, 6, 12),
+    imageUrl: week6img,
+    imageAlt: "Whitehaven beach",
+  },
   {
     week: 5,
     title: "Getting some vitamin B-risbane",
