@@ -19,7 +19,7 @@ export function WeekSeven() {
       title="If you wallaby my lover"
       imageUrl={imageUrl}
       imageAlt="A rock wallaby on Magnetic island"
-      datePosted={new Date(2023, 10, 8, 12)}
+      datePosted={new Date(2023, 10, 7, 12)}
     >
       <p>hiyaaa,</p>
       <p>
