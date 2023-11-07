@@ -5,6 +5,7 @@ import week3img from "../assets/week3.jpg";
 import week4img from "../assets/week4.jpg";
 import week5img from "../assets/week5.jpg";
 import week6img from "../assets/week6.jpg";
+import week7img from "../assets/week7.jpg";
 
 const posts: ICardProps[] = [
   // {
@@ -21,13 +22,13 @@ const posts: ICardProps[] = [
   //   imageUrl: week5img,
   //   imageAlt: "Noosa coastal walk",
   // },
-  // {
-  //   week: 7,
-  //   title: "If you wallaby my lover",
-  //   datePosted: new Date(2023, 10, 8, 12),
-  //   imageUrl: week5img,
-  //   imageAlt: "Noosa coastal walk",
-  // },
+  {
+    week: 7,
+    title: "If you wallaby my lover",
+    datePosted: new Date(2023, 10, 8, 12),
+    imageUrl: week7img,
+    imageAlt: "A rock wallaby on Magnetic island",
+  },
   {
     week: 6,
     title: "Whitsundays? Completed it mate",

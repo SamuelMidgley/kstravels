@@ -41,7 +41,7 @@ export function WeekSix() {
       </figure>
       <p>
         We also climbed a massive sand dune, kayaked in a lil river (and got
-        stuck on a fallen tree trunk), and went snorkelimg. As soon as we got on
+        stuck on a fallen tree trunk), and went snorkeling. As soon as we got on
         land I got stung by a wasp/fly thing 😡. Not haps.
       </p>
       <figure>
@@ -52,7 +52,7 @@ export function WeekSix() {
         />
         <figcaption className="text-sm mt-3 text-center">
           A huuuuge sand dune on k&apos;gari, the largest sand island in the
-          world, we could&apos;ve camped but i dont think i&apos;d have enjoyed
+          world, we could&apos;ve camped but i don't think i&apos;d have enjoyed
           staying in a tent with dingos and crocs so close by
         </figcaption>
       </figure>
@@ -96,7 +96,7 @@ export function WeekSix() {
           className="sm:aspect-[2/1] object-cover"
         />
         <figcaption className="text-sm mt-3 text-center">
-          The only cafe in hervey bay, a 50s american theme, so we had
+          The only cafe in Hervey bay, a 50s american theme, so we had
           milkshakes with breakfast 🤮
         </figcaption>
       </figure>
@@ -104,11 +104,11 @@ export function WeekSix() {
       <p>
         We went up to Airlie Beach after, i.e. where the Whitsundays is. We
         skydived and did a beach landing, or in my case, a landing on someone
-        elses parachute and nearly took them out oops. We jetskiied and
-        snorkeled in the Whitsundays and flew over the Great Barrier Reef in a
-        lil plane. I saw a shark (eek) and we saw sting rays when snorkelling,
-        aswell as a lot of colourful fish and reef, also a lot of bleached coral
-        cus #climatechange
+        elses parachute and nearly took them out oops. We jetskied and snorkeled
+        in the Whitsundays and flew over the Great Barrier Reef in a lil plane.
+        I saw a shark (eek) and we saw sting rays when snorkeling, as well as a
+        lot of colourful fish and reef, also a lot of bleached coral cus
+        #climatechange
       </p>
       <figure>
         <img
@@ -117,7 +117,7 @@ export function WeekSix() {
           className="sm:aspect-[2/1] object-cover"
         />
         <figcaption className="text-sm mt-3 text-center">
-          Ice creams in airlie beach! lovely views until ...
+          Ice creams in Airlie beach! lovely views until ...
         </figcaption>
       </figure>
       <figure>
@@ -164,8 +164,8 @@ export function WeekSix() {
       </figure>
       <p>
         We spent our final full day in Airlie beach flying over the whitsundays
-        and great barrier reef and then rafting over to whitehaven beach
-        (Pirates of the Carribean 5 filmed a scene here). Here are some of the
+        and great barrier reef and then rafting over to Whitehaven beach
+        (Pirates of the Caribbean 5 filmed a scene here). Here are some of the
         highlights:
       </p>
       <figure>
