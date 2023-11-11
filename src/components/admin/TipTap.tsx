@@ -1,18 +1,16 @@
-import { EditorProvider, FloatingMenu, BubbleMenu } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorProvider, FloatingMenu, BubbleMenu } from "@tiptap/react";
+import StarterKit from "@tiptap/starter-kit";
 
 // define your extension array
-const extensions = [
-  StarterKit,
-]
+const extensions = [StarterKit];
 
-const content = '<p>Hello World!</p>'
+const content = "<p>Hello World!</p>";
 
-export function Tiptap() {
+export default function Tiptap() {
   return (
     <EditorProvider extensions={extensions} content={content}>
       <FloatingMenu>This is the floating menu</FloatingMenu>
       <BubbleMenu>This is the bubble menu</BubbleMenu>
     </EditorProvider>
-  )
+  );
 }
