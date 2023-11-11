@@ -1,4 +1,4 @@
-import { useLayoutEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
@@ -13,6 +13,8 @@ import {
   WeekSix,
   WeekSeven,
 } from "./components";
+
+const Admin = React.lazy(() => import("./components/admin/Admin"));
 
 function App() {
   useLayoutEffect(() => {
@@ -43,6 +45,14 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route
+          path="/admin"
+          element={
+            <React.Suspense fallback={<>...</>}>
+              <Admin />
+            </React.Suspense>
+          }
+        />
         <Route path="/week/1" element={<WeekOne />} />
         <Route path="/week/2" element={<WeekTwo />} />
         <Route path="/week/3" element={<WeekThree />} />

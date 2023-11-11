@@ -15,13 +15,13 @@ const posts: ICardProps[] = [
   //   imageUrl: week5img,
   //   imageAlt: "Noosa coastal walk",
   // },
-  // {
-  //   week: 8,
-  //   title: "I Cairns quite believe it",
-  //   datePosted: new Date(2023, 10, 10, 12),
-  //   imageUrl: week5img,
-  //   imageAlt: "Noosa coastal walk",
-  // },
+  {
+    week: 8,
+    title: "I Cairns quite believe it",
+    datePosted: new Date(2023, 10, 10, 12),
+    imageUrl: week5img,
+    imageAlt: "Noosa coastal walk",
+  },
   {
     week: 7,
     title: "If you wallaby my lover",
