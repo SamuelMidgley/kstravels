@@ -72,8 +72,8 @@ export function WeekEight() {
       <p>
         Our third stop was at Millaa Millaa Waterfall. You may recognise it from
         Peter Andre's Mysterious girl or the iconic Herbal essence hair flick.
-        It's also home to eel that bit two people on our tour oop. Sam also saw
-        a baby turtle here.
+        It's also home to an eel that bit two people on our tour oop. Sam also
+        saw a baby turtle here.
       </p>
       <figure>
         <img src={flick} alt="Hair flick at Millaa Millaa falls" />
@@ -83,7 +83,15 @@ export function WeekEight() {
         </figcaption>
       </figure>
       <h2>The Great Barrier Reef</h2>
-      <p></p>
+      <p>
+        C'mon, we weren't gonna do the east coast and not go the great barrier
+        reef. We had a wonderful day with lots of food and pretty views.
+      </p>
+      <p>
+        There was also a semi submersible tour with a marine biologist, and yes
+        the recent submarine implosion was on our mind and it didn't help that
+        was a company called ocean gate and we were with ocean spirit.
+      </p>
       <figure>
         <img
           src={boat}
@@ -101,7 +109,8 @@ export function WeekEight() {
           className="sm:aspect-[3/2] object-cover"
         />
         <figcaption className="text-sm mt-3 text-center">
-          A small collection of the birds on Michaelmas cay
+          A small collection of the birds on Michaelmas cay which is a bird
+          sanctuary that can be home to up to 20,000 birds
         </figcaption>
       </figure>
       <figure>
@@ -116,9 +125,9 @@ export function WeekEight() {
       </figure>
       <h2>The Great Barrier Reef cont.</h2>
       <p>
-        Sam loved his scuba dive so much he went on a little solo adventure the
+        Sam loved his scuba dive so much he went on a lil solo adventure the
         following day to Port Douglas and did 3 dives and saw loads of reef
-        sharks. He met a brummy called Tom who he took these photos:
+        sharks. He met a brummy called Tom who took these photos:
       </p>
       <figure>
         <img
@@ -141,7 +150,11 @@ export function WeekEight() {
         </figcaption>
       </figure>
       <h2>Kuranda Scenic Railway and Skyrail</h2>
-      <p></p>
+      <p>
+        We were embracing our inner OAP on this day. Saw lots of pretty views of
+        waterfalls and rainforests. We also met an Austrian lady who had been
+        skiing at Turracher Hohe, small world!
+      </p>
       <figure>
         <img src={kuranda} alt="The train at kuranda" />
         <figcaption className="text-sm mt-3 text-center">
