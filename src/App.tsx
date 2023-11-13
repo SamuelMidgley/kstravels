@@ -13,6 +13,7 @@ import {
   WeekSix,
   WeekSeven,
 } from "./components";
+import { WeekEight } from "./components/week/WeekEight";
 
 function App() {
   useLayoutEffect(() => {
@@ -50,6 +51,7 @@ function App() {
         <Route path="/week/5" element={<WeekFive />} />
         <Route path="/week/6" element={<WeekSix />} />
         <Route path="/week/7" element={<WeekSeven />} />
+        <Route path="/week/8" element={<WeekEight />} />
       </Routes>
     </BrowserRouter>
   );
