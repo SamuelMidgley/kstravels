@@ -38,14 +38,14 @@
   }
  
   .dark {
-    /* --background: 240 10% 3.9%; */
+    --background: 240 10% 3.9%;
     --background: 222 14% 18%;
     --foreground: 0 0% 98%;
  
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
  
-    /* --popover: 240 10% 3.9%; */
+    --popover: 240 10% 3.9%;
     --popover: 222 14% 18%;
     --popover-foreground: 0 0% 98%;
  
@@ -61,7 +61,8 @@
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
  
-    --destructive: 0 62.8% 30.6%;
+    /* --destructive: 0 62.8% 30.6%; */
+    --destructive: 0 100% 59.8%;
     --destructive-foreground: 0 0% 98%;
  
     --border: 240 3.7% 15.9%;

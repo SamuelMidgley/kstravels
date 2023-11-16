@@ -49,7 +49,7 @@ function App() {
         <Route
           path="/admin"
           element={
-            <React.Suspense fallback={<>...</>}>
+            <React.Suspense fallback={<></>}>
               <Admin />
             </React.Suspense>
           }

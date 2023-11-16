@@ -6,7 +6,7 @@ export function EditPost() {
   return (
     <div>
       <h1>Hello</h1>
-      <React.Suspense fallback={<>...</>}>
+      <React.Suspense fallback={<></>}>
         <Tiptap />
       </React.Suspense>
     </div>

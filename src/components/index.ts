@@ -1,7 +1,6 @@
 export * from './Header'
 export * from './Home'
 export * from './ScrollTo'
-export * from './admin/EditPost'
 export * from './week/WeekOne'
 export * from './week/WeekTwo'
 export * from './week/WeekThree'
