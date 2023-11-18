@@ -7,15 +7,16 @@ import week5img from "../assets/week5.jpg";
 import week6img from "../assets/week6.jpg";
 import week7img from "../assets/week7.jpg";
 import week8img from "../assets/week8.jpg";
+import week9img from "../assets/week9.jpg";
 
 const posts: ICardProps[] = [
-  // {
-  //   week: 9,
-  //   title: "The (Mel)bourne Ultimatum",
-  //   datePosted: new Date(2023, 10, 12, 12),
-  //   imageUrl: week5img,
-  //   imageAlt: "Noosa coastal walk",
-  // },
+  {
+    week: 9,
+    title: "The (Mel)Bourne Ultimatum",
+    datePosted: new Date(2023, 10, 16, 12),
+    imageUrl: week9img,
+    imageAlt: "Sunset in port melbourne",
+  },
   {
     week: 8,
     title: "I Cairns quite believe it",
