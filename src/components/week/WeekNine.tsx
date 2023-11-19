@@ -8,6 +8,7 @@ import blochaus from "@/assets/week9/blochaus.jpg";
 import parma from "@/assets/week9/parma.jpg";
 import planetearth from "@/assets/week9/planetearth.jpg";
 import orange from "@/assets/week9/orange.jpg";
+import spidermidge from "@/assets/week9/spidermidge.jpg";
 
 export function WeekNine() {
   return (
@@ -15,7 +16,7 @@ export function WeekNine() {
       title="Week 9: The (Mel)Bourne Ultimatum"
       imageUrl={image}
       imageAlt="Sunset in port melbourne"
-      datePosted={new Date(2023, 10, 16, 12)}
+      datePosted={new Date(2023, 10, 19, 12)}
     >
       <p>G'day mateys</p>
       <p>
@@ -78,6 +79,12 @@ export function WeekNine() {
         alt="A flyer"
         caption="I didn't actually take any photos of the event but here's the flyer so just use your imagination"
       />
+      <Figure
+        src={spidermidge}
+        alt="Spider midge"
+        caption="Here's another photo of me climbing to help those imagination juices flowing"
+      />
+      <p>Can't stay, Blue Jay</p>
       <p>
         PS. If anyone is wondering whether we miss the UK while in aus I will
         leave you with the price of a terrys choc orange over here
@@ -87,7 +94,6 @@ export function WeekNine() {
         alt="A terrys chocolate orange for $7.50"
         caption="A far cry from the £1.50 we're used to"
       />
-      <p>Can't stay, Blue Jay</p>
     </Week>
   );
 }

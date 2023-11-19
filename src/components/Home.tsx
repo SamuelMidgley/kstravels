@@ -13,7 +13,7 @@ const posts: ICardProps[] = [
   {
     week: 9,
     title: "The (Mel)Bourne Ultimatum",
-    datePosted: new Date(2023, 10, 16, 12),
+    datePosted: new Date(2023, 10, 19, 12),
     imageUrl: week9img,
     imageAlt: "Sunset in port melbourne",
   },
