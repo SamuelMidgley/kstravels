@@ -20,7 +20,7 @@ export function Week({
   imageAlt,
   children,
 }: IWeek) {
-  const maxWeekNum = 8;
+  const maxWeekNum = 9;
   const location = useLocation();
   const weekNum = location.pathname.charAt(location.pathname.length - 1);
 

@@ -12,8 +12,9 @@ import {
   ScrollToTop,
   WeekSix,
   WeekSeven,
+  WeekEight,
+  WeekNine,
 } from "./components";
-import { WeekEight } from "./components/week/WeekEight";
 
 function App() {
   useLayoutEffect(() => {
@@ -52,6 +53,7 @@ function App() {
         <Route path="/week/6" element={<WeekSix />} />
         <Route path="/week/7" element={<WeekSeven />} />
         <Route path="/week/8" element={<WeekEight />} />
+        <Route path="/week/9" element={<WeekNine />} />
       </Routes>
     </BrowserRouter>
   );
