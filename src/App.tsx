@@ -14,6 +14,7 @@ import {
   WeekSeven,
   WeekEight,
   WeekNine,
+  WeekTen,
 } from "./components";
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Route path="/week/7" element={<WeekSeven />} />
         <Route path="/week/8" element={<WeekEight />} />
         <Route path="/week/9" element={<WeekNine />} />
+        <Route path="/week/10" element={<WeekTen />} />
       </Routes>
     </BrowserRouter>
   );

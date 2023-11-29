@@ -8,8 +8,16 @@ import week6img from "../assets/week6.jpg";
 import week7img from "../assets/week7.jpg";
 import week8img from "../assets/week8.jpg";
 import week9img from "../assets/week9.jpg";
+import week10img from "../assets/week10.jpg";
 
 const posts: ICardProps[] = [
+  {
+    week: 10,
+    title: "Adelaide odl lay hee hoo",
+    datePosted: new Date(2023, 10, 29, 12),
+    imageUrl: week10img,
+    imageAlt: "City view",
+  },
   {
     week: 9,
     title: "The (Mel)Bourne Ultimatum",
