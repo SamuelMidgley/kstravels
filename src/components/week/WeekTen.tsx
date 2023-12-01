@@ -19,11 +19,13 @@ import grotto from "@/assets/week10/grotto.jpg";
 import winemug from "@/assets/week10/winemug.jpg";
 import sous from "@/assets/week10/sous.jpg";
 import joy from "@/assets/week10/joy.jpg";
+import madness from "@/assets/week10/madness.jpg";
+import stunning from "@/assets/week10/stunning.jpg";
 
 export function WeekTen() {
   return (
     <Week
-      title="Week 10-11: Adelaide odl lay hee hoo"
+      title="Week 10 & 11: Adelaide odl lay hee hoo"
       imageUrl={image}
       imageAlt="Adelaide skyline"
       datePosted={new Date(2023, 10, 29, 12)}
@@ -48,14 +50,14 @@ export function WeekTen() {
       </p>
       <Figure
         src={baddriver}
-        alt="Kiara being bad at driving"
-        caption="Kiara being bad at driving"
+        alt="Me being bad at driving"
+        caption="Kiara being bad at driving - Sam"
       />
       <p>We stopped off at some v pretty sites along the great ocean road:</p>
       <Figure
         src={stretch}
         alt=""
-        caption="Kiara showcasing her impressive flexibility at Point Addis beach"
+        caption="Kiara showcasing her impressive flexibility at Point Addis beach - Sam"
       />
       <Figure
         src={roadbyocean}
@@ -84,13 +86,22 @@ export function WeekTen() {
         caption="Some of the 12 apostles"
       />
       <h2>Port Campbell ➡ Warrnambool</h2>
+      <p>
+        Another short hop down the great ocean road. Weather was a bit meh but
+        the views were still pretty. We also went to a hot springs spa in
+        Warnnambool cus all this holidaying been stressful.
+      </p>
       <Figure
         src={londonbridge}
         alt=""
         caption="'London Bridge'... yeah I don't see it either"
       />
       <Figure src={grotto} alt="" caption="The Grotto" />
-      <p>the wind doing a madness on Sam's hair</p>
+      <Figure
+        src={madness}
+        alt=""
+        caption="The wind doing a madness on Sam's hair"
+      />
       <h2>Warrnambool ➡ Adelaide</h2>
       <p>
         Well blimey this was a long drive. We didn't take any photos but that's
@@ -108,16 +119,21 @@ export function WeekTen() {
       <Figure
         src={trip}
         alt="Reflective art piece"
-        caption="Spot us in this groovy sculpture (Look away if yo have tripiphobia"
+        caption="Spot us in this groovy sculpture (Look away if yo have trypophobia)"
+      />
+      <Figure
+        src={stunning}
+        alt=""
+        caption="Our favourite painting without question"
       />
       <Figure
         src={image}
         alt="Skyline"
         caption="We had a lil walky around the parks an botanical gardens, they have
-        boats here that you can hire with barbeques on!!"
+        boats here that you can hire with BBQs on!!"
       />
-      <Figure src={tree} alt="tree" caption="Tree" />
-      <Figure src={bank} alt="Riverbank" caption="Riverbank" />
+      <Figure src={tree} alt="tree" caption="A cool tree" />
+      <Figure src={bank} alt="Riverbank" caption="A cool riverbank" />
       <Figure
         src={news}
         alt="news anchor on the streets"
@@ -127,20 +143,20 @@ export function WeekTen() {
       <Figure
         src={wine}
         alt="Kiara holding wine"
-        caption="We stumbled across a cheese and wine festival!! had some mac * cheese
+        caption="We stumbled across a cheese and wine festival!! had some mac and cheese
         and pizza with cheap wine"
       />
       <h2>Adelaide ➡ Halls gap ➡ Melbourne</h2>
       <p>
         We stopped off at Halls gap on the way back to Melbourne. We should have
-        really had another night here as we didn't get to fully explore the
-        Grampians but ah well.
+        really had another night here as we didn't explore any of the Grampians
+        but ah well.
       </p>
       <h2>Bonus Week 11 content</h2>
       <p>
         I know aren't you a lucky bunch. We spent roughly a week in Melbourne.
-        We were supposed to stay at the Nunnery but Kiara's aunt (Sharon) let us
-        stay in a penthouse hotel suite they had for two nights!!
+        We were supposed to stay at the Nunnery but my aunt (Sharon) let us stay
+        in a penthouse hotel suite they had for two nights!!
       </p>
       <Figure
         src={winemug}
@@ -150,7 +166,7 @@ export function WeekTen() {
       <Figure
         src={sous}
         alt=""
-        caption="We helped out with Sharon and Bjorn's nordic dining experience. Here's Sam's expert cutting skills on display. Kiara was on waitressing duty"
+        caption="We also helped out with Sharon and Bjorn's nordic dining experience. Here's Sam's expert cutting skills on display. I was on waitressing duty. "
       />
       <Figure
         src={joy}
