@@ -21,6 +21,7 @@ import sous from "@/assets/week10/sous.jpg";
 import joy from "@/assets/week10/joy.jpg";
 import madness from "@/assets/week10/madness.jpg";
 import stunning from "@/assets/week10/stunning.jpg";
+import { Poll } from "../poll/Poll";
 
 export function WeekTen() {
   return (
@@ -30,6 +31,7 @@ export function WeekTen() {
       imageAlt="Adelaide skyline"
       datePosted={new Date(2023, 10, 29, 12)}
     >
+      <Poll />
       <p>Helloooo</p>
       <p>Big week this week, we did a road trip!!</p>
       <h2>Melbourne ➡➡ Apollo bay</h2>

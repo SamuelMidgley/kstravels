@@ -16,6 +16,9 @@ import {
   WeekNine,
   WeekTen,
 } from "./components";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 function App() {
   useLayoutEffect(() => {
@@ -41,23 +44,25 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/week/1" element={<WeekOne />} />
-        <Route path="/week/2" element={<WeekTwo />} />
-        <Route path="/week/3" element={<WeekThree />} />
-        <Route path="/week/4" element={<WeekFour />} />
-        <Route path="/week/5" element={<WeekFive />} />
-        <Route path="/week/6" element={<WeekSix />} />
-        <Route path="/week/7" element={<WeekSeven />} />
-        <Route path="/week/8" element={<WeekEight />} />
-        <Route path="/week/9" element={<WeekNine />} />
-        <Route path="/week/10" element={<WeekTen />} />
-      </Routes>
-    </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/week/1" element={<WeekOne />} />
+          <Route path="/week/2" element={<WeekTwo />} />
+          <Route path="/week/3" element={<WeekThree />} />
+          <Route path="/week/4" element={<WeekFour />} />
+          <Route path="/week/5" element={<WeekFive />} />
+          <Route path="/week/6" element={<WeekSix />} />
+          <Route path="/week/7" element={<WeekSeven />} />
+          <Route path="/week/8" element={<WeekEight />} />
+          <Route path="/week/9" element={<WeekNine />} />
+          <Route path="/week/10" element={<WeekTen />} />
+        </Routes>
+      </BrowserRouter>
+    </QueryClientProvider>
   );
 }
 
