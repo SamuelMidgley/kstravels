@@ -20,9 +20,10 @@ export function Week({
   imageAlt,
   children,
 }: IWeek) {
-  const maxWeekNum = 9;
+  const maxWeekNum = 10;
   const location = useLocation();
-  const weekNum = location.pathname.charAt(location.pathname.length - 1);
+  const thingys = location.pathname.split("/");
+  const weekNum = thingys[thingys.length - 1];
 
   return (
     <>
@@ -32,7 +33,6 @@ export function Week({
             <h1 className="text-[28px] font-extrabold mb-3">{title}</h1>
             <div className="uppercase text-textsecondary text-xs font-extrabold tracking-wide">
               <span>{format(datePosted, "LLL d, y")}</span>
-              {/* <span>{`week ${week}`}</span> */}
             </div>
           </header>
           <figure className="mt-12 mb-8 max-w-[calc(960px+8vw)] mx-auto px-[4vw] w-full">
