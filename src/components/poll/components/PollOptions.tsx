@@ -1,7 +1,7 @@
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useQuery } from "@tanstack/react-query";
-import { getPollOptions } from "./service/poll";
+import { getPollOptions } from "../service/poll";
 
 interface IPollOptions {
   setSelected: (newSelected: string) => void;

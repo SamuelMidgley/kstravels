@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { getPollResults } from "./service/poll";
+import { getPollResults } from "../service/poll";
 import { CheckIcon } from "@radix-ui/react-icons";
 
 interface IPollResults {

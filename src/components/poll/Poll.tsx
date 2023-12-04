@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Card,
   CardContent,
@@ -6,9 +7,8 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "../ui/button";
-import { PollOptions } from "./PollOptions";
-import { PollResults } from "./PollResults";
-import { useState } from "react";
+import { PollOptions } from "./components/PollOptions";
+import { PollResults } from "./components/PollResults";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { getPollDetails, submitPollVote } from "./service/poll";
 
