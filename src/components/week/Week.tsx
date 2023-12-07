@@ -13,6 +13,9 @@ export interface IWeek {
   children: React.ReactNode;
 }
 
+const maxWeekNum = 12;
+const combinedPostNums = [10];
+
 export function Week({
   title,
   datePosted,
@@ -20,10 +23,27 @@ export function Week({
   imageAlt,
   children,
 }: IWeek) {
-  const maxWeekNum = 10;
   const location = useLocation();
   const thingys = location.pathname.split("/");
   const weekNum = thingys[thingys.length - 1];
+
+  function getPrevBlogPost(prevNum: number) {
+    // We've all done things we're not proud of
+    if (combinedPostNums.includes(prevNum)) {
+      return prevNum - 2;
+    }
+
+    return prevNum - 1;
+  }
+
+  function getNextBlogPost(prevNum: number) {
+    // We've all done things we're not proud of
+    if (combinedPostNums.includes(prevNum)) {
+      return prevNum + 2;
+    }
+
+    return prevNum + 1;
+  }
 
   return (
     <>
@@ -58,7 +78,7 @@ export function Week({
         <div className="max-w-[calc(750px+8vw)] mx-auto px-[4vw] w-full mt-5 flex justify-between">
           {Number(weekNum) > 1 && (
             <Link
-              to={`/week/${Number(weekNum) - 1}`}
+              to={`/week/${getPrevBlogPost(Number(weekNum))}`}
               className={`${buttonVariants({
                 variant: "link",
               })} flex items-center gap-2`}
@@ -70,7 +90,7 @@ export function Week({
 
           {Number(weekNum) !== maxWeekNum && (
             <Link
-              to={`/week/${Number(weekNum) + 1}`}
+              to={`/week/${getNextBlogPost(Number(weekNum))}`}
               className={`${buttonVariants({
                 variant: "link",
               })} flex items-center gap-2 ml-auto`}

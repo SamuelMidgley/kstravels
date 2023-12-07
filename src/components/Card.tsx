@@ -34,7 +34,7 @@ export function Card({
       <div className="max-w-[calc(750px+8vw)] mx-auto px-[4vw] w-full">
         <header className="mb-5">
           <h2 className="text-[20px] md:text-[28px] font-extrabold mb-2">
-            <Link to={`/week/${week}`}>{`Week ${week}: ${title}`}</Link>
+            <Link to={`/week/${week}`}>{title}</Link>
           </h2>
           <div className="uppercase text-textsecondary text-xs font-extrabold tracking-wide">
             <span>{timeAgo}</span>
