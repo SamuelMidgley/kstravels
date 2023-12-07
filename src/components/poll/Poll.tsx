@@ -12,7 +12,11 @@ import { PollResults } from "./components/PollResults";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { getPollDetails, submitPollVote } from "./service/poll";
 
-export function Poll() {
+interface IPoll {
+  pollId: number;
+}
+
+export function Poll({ pollId }: IPoll) {
   const [selected, setSelected] = useState("");
   const {
     isLoading,
@@ -62,7 +66,7 @@ export function Poll() {
       <CardContent>
         {hasVoted ? (
           <PollResults
-            numVotes={pollDetails.numVotes}
+            numVotes={pollDetails.num_votes}
             question={pollDetails.question}
           />
         ) : (
@@ -70,7 +74,7 @@ export function Poll() {
         )}
       </CardContent>
       <CardFooter className="flex justify-between items-center">
-        <p className="!m-0">{pollDetails.numVotes} votes</p>
+        <p className="!m-0">{pollDetails.num_votes} votes</p>
         {!hasVoted && (
           <Button
             onClick={() => {

@@ -1,4 +1,4 @@
 export interface IPollDetails {
     question: string
-    numVotes: number
+    num_votes: number
 }
