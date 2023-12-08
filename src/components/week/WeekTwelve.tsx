@@ -1,14 +1,16 @@
 import { Figure } from "../Figure";
+import { Poll } from "../poll/Poll";
 import { Week } from "./Week";
 
-export function WeekEight() {
+export function WeekTwelve() {
   return (
     <Week
-      title="Week 12: We've (Auck)landed in New Zealand!!"
+      title="Week 12: We've (Auck)landed!!"
       imageUrl=""
       imageAlt=""
       datePosted={new Date(2023, 11, 4, 12)}
     >
+      <Poll pollId={1} />
       <p>Kia ora peeps,</p>
       <p>We made it to New Zealand!</p>
       <h2>Auckland</h2>

@@ -12,6 +12,13 @@ import week10img from "../assets/week10.jpg";
 
 const posts: ICardProps[] = [
   {
+    week: 12,
+    title: "Week 12: We've (Auck)landed!!",
+    datePosted: new Date(2023, 11, 4, 12),
+    imageUrl: week10img,
+    imageAlt: "City view",
+  },
+  {
     week: 10,
     title: "Week 10 & 11: Adelaide odl lay hee hoo",
     datePosted: new Date(2023, 10, 29, 12),

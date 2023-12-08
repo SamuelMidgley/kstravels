@@ -9,7 +9,7 @@ import {
 import { Button } from "../ui/button";
 import { PollOptions } from "./components/PollOptions";
 import { PollResults } from "./components/PollResults";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { getPollDetails, submitPollVote } from "./service/poll";
 
 interface IPoll {
@@ -18,14 +18,28 @@ interface IPoll {
 
 export function Poll({ pollId }: IPoll) {
   const [selected, setSelected] = useState("");
+  const queryClient = useQueryClient();
+
   const {
     isLoading,
     error,
     data: pollDetails,
-  } = useQuery({ queryKey: ["pollDetails"], queryFn: getPollDetails });
+  } = useQuery({
+    queryKey: ["pollDetails"],
+    queryFn: () => getPollDetails(pollId),
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
+    retry: 1,
+    retryDelay: 3000,
+  });
 
   const { isPending, isSuccess, mutate } = useMutation({
     mutationFn: submitPollVote,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ["pollDetails"] });
+    },
+    retry: 1,
+    retryDelay: 3000,
   });
 
   if (isLoading)
@@ -55,8 +69,7 @@ export function Poll({ pollId }: IPoll) {
     );
   }
 
-  const hasVoted =
-    window.localStorage.getItem(pollDetails.question) || isSuccess;
+  const hasVoted = window.localStorage.getItem(`poll-${pollId}`) || isSuccess;
 
   return (
     <Card>
@@ -65,12 +78,9 @@ export function Poll({ pollId }: IPoll) {
       </CardHeader>
       <CardContent>
         {hasVoted ? (
-          <PollResults
-            numVotes={pollDetails.num_votes}
-            question={pollDetails.question}
-          />
+          <PollResults pollId={pollId} />
         ) : (
-          <PollOptions setSelected={setSelected} />
+          <PollOptions pollId={pollId} setSelected={setSelected} />
         )}
       </CardContent>
       <CardFooter className="flex justify-between items-center">
@@ -78,8 +88,13 @@ export function Poll({ pollId }: IPoll) {
         {!hasVoted && (
           <Button
             onClick={() => {
-              window.localStorage.setItem(pollDetails.question, selected);
-              mutate({ vote: selected });
+              window.localStorage.setItem(`poll-${pollId}`, selected);
+              // Should do date on worker not here
+              mutate({
+                pollId: pollId,
+                optionId: selected,
+                date: new Date().toUTCString(),
+              });
             }}
           >
             Vote

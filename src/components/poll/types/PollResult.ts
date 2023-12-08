@@ -1,4 +1,5 @@
 export interface IPollResult {
-    option: string;
-    count: number;
+  option_id: number;
+  option: string;
+  count: number;
 }

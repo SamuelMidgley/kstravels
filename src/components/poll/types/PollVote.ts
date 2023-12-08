@@ -1,3 +1,5 @@
 export interface PollVote {
-    vote: string
+  pollId: number;
+  optionId: string;
+  date: string;
 }
