@@ -9,14 +9,15 @@ import week7img from "../assets/week7.jpg";
 import week8img from "../assets/week8.jpg";
 import week9img from "../assets/week9.jpg";
 import week10img from "../assets/week10.jpg";
+import week12img from "../assets/week12.jpg";
 
 const posts: ICardProps[] = [
   {
     week: 12,
     title: "Week 12: We've (Auck)landed!!",
-    datePosted: new Date(2023, 11, 4, 12),
-    imageUrl: week10img,
-    imageAlt: "City view",
+    datePosted: new Date(2023, 11, 9, 12),
+    imageUrl: week12img,
+    imageAlt: "The view at Cape Reinga",
   },
   {
     week: 10,

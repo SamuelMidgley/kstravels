@@ -39,7 +39,9 @@ export function PollResults({ pollId }: IPollResults) {
     <div>
       {pollResults.map((pr, index) => (
         <div key={index} className="flex items-center gap-4 mb-4 last:mb-0">
-          <div>{getPercent(pr.count, totalVotes)}</div>
+          <div className="min-w-[2.5rem]">
+            {getPercent(pr.count, totalVotes)}
+          </div>
           <div className="flex flex-col gap-2 flex-1">
             <div className="flex items-center gap-2">
               {pr.option}

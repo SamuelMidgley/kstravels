@@ -13,10 +13,11 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { getPollDetails, submitPollVote } from "./service/poll";
 
 interface IPoll {
+  className?: string;
   pollId: number;
 }
 
-export function Poll({ pollId }: IPoll) {
+export function Poll({ className, pollId }: IPoll) {
   const [selected, setSelected] = useState("");
   const queryClient = useQueryClient();
 
@@ -72,7 +73,7 @@ export function Poll({ pollId }: IPoll) {
   const hasVoted = window.localStorage.getItem(`poll-${pollId}`) || isSuccess;
 
   return (
-    <Card>
+    <Card className={className}>
       <CardHeader>
         <CardTitle>{pollDetails.question}</CardTitle>
       </CardHeader>
