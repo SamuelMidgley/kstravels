@@ -17,16 +17,18 @@ import pretty from "../../assets/week12/pretty.jpg";
 import russell from "../../assets/week12/russell.jpg";
 import samboarding from "../../assets/week12/samboarding.mp4";
 import kiaraboarding from "../../assets/week12/kiaraboarding.mp4";
+import bus from "../../assets/week12/bus.jpg";
+import oops from "../../assets/week12/oops.jpg";
 
 export function WeekTwelve() {
   return (
     <Week
       title="Week 12: We've (Auck)landed!!"
       imageUrl={week12img}
-      imageAlt=""
+      imageAlt="Cape Reinga lighthouse, you can also see Te Aroha on the right side of the photo"
       datePosted={new Date(2023, 11, 9, 12)}
     >
-      <p>Kia ora peeps,</p>
+      <p>Kia ora everyone,</p>
       <p>
         We made it to New Zealand! Til Christmas eve we will be touring the
         north and south islands of New Zealand on the Kiwi experience bus!
@@ -96,8 +98,8 @@ export function WeekTwelve() {
       </figure>
       <Poll className="mt-[40px]" pollId={1} />
       <Figure
-        src=""
-        caption="We also went down 90 mile beach which is a national highway in New Zealand which is pretty cool. Another fun fact for you the beach is actually xx miles along and this actually has come up on a pub quiz"
+        src={bus}
+        caption="We also went down 90 mile beach which is a national highway in New Zealand which is pretty cool. Another fun fact for you the beach is actually 55 miles along and this actually has come up on a pub quiz we've done in sheffield"
         alt=""
       />
       <h2>Russell</h2>
@@ -127,6 +129,12 @@ export function WeekTwelve() {
       />
       <Figure src={bridge} alt="" caption="A cute bridge" />
       <p>Haere rā (Bye in maori)</p>
+      <h2>Bonus bloopers</h2>
+      <Figure
+        src={oops}
+        caption="This is our first attempt at me pointing to the sign. As you can see Sam didn't quite get the vision..."
+        alt=""
+      />
     </Week>
   );
 }

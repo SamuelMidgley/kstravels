@@ -63,7 +63,7 @@ export function Poll({ className, pollId }: IPoll) {
 
   if (isPending) {
     return (
-      <Card className="h-[198px] flex flex-col">
+      <Card className={`h-[198px] flex flex-col ${className}`}>
         <CardHeader className="pb-0">
           <CardTitle>{pollDetails.question}</CardTitle>
         </CardHeader>
