@@ -45,14 +45,18 @@ export function Poll({ className, pollId }: IPoll) {
 
   if (isLoading)
     return (
-      <Card className="h-[198px] flex items-center justify-center">
+      <Card
+        className={`h-[198px] flex items-center justify-center ${className}`}
+      >
         <CardContent>Poll loading...</CardContent>
       </Card>
     );
 
   if (error || !pollDetails)
     return (
-      <Card className="h-[198px] flex items-center justify-center">
+      <Card
+        className={`h-[198px] flex items-center justify-center ${className}`}
+      >
         <CardContent>Damn that sucks, something went wrong :(</CardContent>
       </Card>
     );
