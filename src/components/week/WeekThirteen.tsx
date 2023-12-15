@@ -55,7 +55,7 @@ export function WeekThirteen() {
       </p>
       <Figure
         src={confident}
-        caption="Me about to abseil 60m into a cave. Absolutely no hint of me being scared ... right?"
+        caption="Kiara about to abseil 60m into a cave. Absolutely no hint of her being scared ... right?"
         alt=""
       />
       <Figure src={absail} caption="The hole we abseiled into" alt="" />
@@ -76,11 +76,7 @@ export function WeekThirteen() {
         alt=""
         caption="The attention to detail was incredible"
       />
-      <Figure
-        src={mtvcribs}
-        alt=""
-        caption="Hey architectural digest welcome to our home"
-      />
+      <Figure src={mtvcribs} alt="" caption="Hey MTV welcome to our crib" />
       <p>
         They had just opened up two hobbit holes that you can go into and we got
         a little bit too invested...
@@ -127,14 +123,14 @@ export function WeekThirteen() {
       <Figure
         src={voibey}
         alt=""
-        caption="Me and Sam drinking apple juice and sparkling water :)"
+        caption="Me and Kiara drinking apple juice and sparkling water :)"
       />
       <figure>
         <video controls>
           <source src={jump} type="video/mp4" />
         </video>
         <figcaption className="text-sm mt-3 text-center">
-          "Fucking freezing" - Sam
+          Let me tell you the water was bloody baltic
         </figcaption>
       </figure>
       <p>
@@ -144,10 +140,14 @@ export function WeekThirteen() {
       <Figure
         src={stole}
         alt=""
-        caption="Sam finished the night by stealing our bus drivers cap..."
+        caption="Finished the night by stealing our bus drivers cap..."
       />
       <p>We then had a free day in Taupo to explore.</p>
-      <Figure src={craters} alt="" caption="Craters of the moon, KIARA thing" />
+      <Figure
+        src={craters}
+        alt=""
+        caption="Craters of the moon, Kiara was in geographer's heaven"
+      />
       <Figure
         src={kerosene}
         alt=""
