@@ -9,6 +9,7 @@ export function Figure({ src, alt, caption, aspectRatio }: IFigure) {
   return (
     <figure>
       <img
+        loading="lazy"
         src={src}
         alt={alt}
         className={`sm:aspect-[${aspectRatio ?? "1/2"}] object-cover`}
