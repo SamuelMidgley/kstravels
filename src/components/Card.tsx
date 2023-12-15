@@ -25,6 +25,7 @@ export function Card({
       <figure className="mb-7 md:mb-12 max-w-[calc(960px+8vw)] mx-auto px-[4vw] w-full">
         <Link to={`/week/${week}`}>
           <img
+            loading="lazy"
             src={imageUrl}
             alt={imageAlt}
             className="md:aspect-[2/1] object-cover"
