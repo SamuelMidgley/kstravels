@@ -11,8 +11,16 @@ import week9img from "../assets/week9.jpg";
 import week10img from "../assets/week10.jpg";
 import week12img from "../assets/week12.jpg";
 import week13img from "../assets/week13.jpg";
+import week14img from "../assets/week14.jpg";
 
 const posts: ICardProps[] = [
+  {
+    week: 14,
+    title: "Week 14: We're going on an adventure 🧙‍♂️",
+    datePosted: new Date(2023, 11, 17, 12),
+    imageUrl: week14img,
+    imageAlt: "Quadbiking in front of Franz Josef glacier",
+  },
   {
     week: 13,
     title: "Week 13: Kiwi iwi!!",
