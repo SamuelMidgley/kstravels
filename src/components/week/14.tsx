@@ -44,11 +44,12 @@ export function WeekFourteen() {
       </p>
       <Figure
         src={highfive}
-        caption="No comment on how long this took to get"
+        caption="No comment on how long this took to get..."
       />
       <p>
-        Didn't know what to expect from this place but it was actually pretty
-        fun. Me and Kiara went for a little run and saw some pretty sites.
+        Didn't know what to expect from Westport but it was actually pretty fun.
+        Me and Kiara went for a little run (yep I know what you're thinking...
+        that's not a typo) and saw some pretty sites.
       </p>
       <Figure src={westport} caption="A lovely view of westport" />
       <p> We then ended the day with a bonfire and some s'mores.</p>
@@ -57,7 +58,7 @@ export function WeekFourteen() {
       <p>
         Wowza this was a beautiful stop. When we got here we took a lil hike to
         the glacier and it is terrifying seeing how far it has retreated in
-        recent years #globalwarming
+        recent years #globalwarming #recedingfasterthanmyhairline.
       </p>
       <p>
         On our free day here we started off with a cheeky bit of quad biking.
@@ -71,7 +72,7 @@ export function WeekFourteen() {
       <p>We then finished the day with a little bit of kayaking</p>
       <Figure
         src={kayak}
-        caption="Running out of different ways to say pretty"
+        caption="There may have been a wee bit of arguing during this activity regarding Kiara's knowledge of left and right (and general co-ordination)"
       />
       <h2>Queenstown</h2>
       <Figure
@@ -100,7 +101,7 @@ export function WeekFourteen() {
       <Poll className="mt-[40px]" pollId={2} />
       <h2>Milford Sound</h2>
       <p>
-        While in Queenstown he had a hefty 12 hour day trip to Milford Sound
+        While in Queenstown we had a hefty 12 hour day trip to Milford Sound
         (actually a Fjord). Tbh the drive there was more impressive than the
         Fjord but that's more of a compliment of the drive.
       </p>
