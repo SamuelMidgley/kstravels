@@ -20,6 +20,8 @@ import fire from "../../assets/week14/fire.jpg";
 import milford from "../../assets/week14/milford.jpg";
 import icebar from "../../assets/week14/icebar.jpg";
 import highfive from "../../assets/week14/highfive.jpg";
+import garfield from "../../assets/week14/garfield.jpg";
+import teapot from "../../assets/week14/teapot.jpg";
 
 export function WeekFourteen() {
   return (
@@ -30,6 +32,10 @@ export function WeekFourteen() {
       datePosted={new Date(2023, 11, 15, 12)}
     >
       <p>Kia ora koutou (Hello everyone)</p>
+      <p>
+        Let's just ignore the fact it's been just over a month before the last
+        update...
+      </p>
       <h2>Kaiteriteri</h2>
       <p>
         Our first stop on the south island was Kaiteriteri right on the border
@@ -52,7 +58,7 @@ export function WeekFourteen() {
         that's not a typo) and saw some pretty sites.
       </p>
       <Figure src={westport} caption="A lovely view of westport" />
-      <p> We then ended the day with a bonfire and some s'mores.</p>
+      <p>We then ended the day with a bonfire and some s'mores.</p>
       <Figure src={smores} caption="Please sir can I have some s'more" />
       <h2>Franz Josef</h2>
       <p>
@@ -68,21 +74,29 @@ export function WeekFourteen() {
         src={quad2}
         caption="These were included in the price which is pretty crazy"
       />
-      <Figure src={quad3} caption="Cheeky photobomb by a glacier" />
+      <Figure
+        src={quad3}
+        caption="Probably the only time I can say we were photobombed by a glacier"
+      />
       <p>We then finished the day with a little bit of kayaking</p>
       <Figure
         src={kayak}
         caption="There may have been a wee bit of arguing during this activity regarding Kiara's knowledge of left and right (and general co-ordination)"
       />
+      <Figure
+        src={garfield}
+        caption="The cover art for mine and Kiara's debut album"
+      />
       <h2>Queenstown</h2>
+      <p>What a gorgeous drive this was...</p>
       <Figure
         src={lakehawea}
         caption="One of the stops on the way to Queenstown, Lake Hawea"
       />
       <p>
-        It's just getting more and more beautiful. Honestly might be the
-        prettiest city we've ever been to. We arrived to a pretty incredible
-        sunset and got a fergburger (a Queenstown institute)
+        Queenstown might honestly be the prettiest city we've ever been to. We
+        arrived to a pretty incredible sunset and got a fergburger (a Queenstown
+        institute)
       </p>
       <Figure
         src={sunset}
@@ -94,21 +108,17 @@ export function WeekFourteen() {
       />
       <p>
         The next day we really went out of our comfort zones and did the
-        shotover canyon swing. I can't remember the last time I was that
-        scared...
+        shotover canyon swing. I can't remember the last time I was that scared
+        and judging by Kiara's face she was thinking the same thing.
       </p>
       <Figure src={scared} caption="Who looks more scared? Vote below..." />
       <Poll className="mt-[40px]" pollId={2} />
       <h2>Milford Sound</h2>
       <p>
         While in Queenstown we had a hefty 12 hour day trip to Milford Sound
-        (actually a Fjord). Tbh the drive there was more impressive than the
-        Fjord but that's more of a compliment of the drive.
+        (actually a Fjord).
       </p>
-      <Figure
-        src={wee}
-        caption="It's not me in the photo but I did take it and I think it looks pretty cool"
-      />
+      <Figure src={wee} caption="Insert funny caption" />
       <Figure src={reflection} caption="Such reflection many wow" />
       <Figure
         src={milford}
@@ -116,10 +126,19 @@ export function WeekFourteen() {
       />
       <Figure src={fire} caption="It's giving 'Disaster girl' meme vibes" />
       <p>
-        We got back just in time to do a kiwi experience pub crawl. Big fan of a
-        Queenstown night out.
+        We got back just in time to do the kiwi experience pub crawl. Big fan of
+        a Queenstown night out. There was more dnb and teapots involved than I
+        was expecting but that's never a bad thing.
       </p>
       <Figure src={icebar} caption="This bar was made of ice :O" />
+      <Figure
+        src={teapot}
+        caption="I promise this was just water mum and dad"
+      />
+      <p>
+        Don't worry there won't be as much of a wait til the next blog,
+        probably...
+      </p>
       <p>Mā te wā (Until next time)</p>
     </Week>
   );

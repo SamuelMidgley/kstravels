@@ -7,6 +7,8 @@ import teeth from "../../assets/week16/teeth.jpg";
 import sagoo from "../../assets/week16/sagoofam.jpg";
 import tanglewood from "../../assets/week16/tanglewood.jpg";
 import samdoof from "../../assets/week16/samdoof.jpg";
+import groovy from "../../assets/week16/groovy.jpg";
+import sunset from "../../assets/week16/sunset.jpg";
 import { Figure } from "../Figure";
 
 export function Week16() {
@@ -49,8 +51,19 @@ export function Week16() {
         sanitiser in the loos smelt eerily similar to tequila, which, if you
         were at my 18th birthday, you’ll know why this smell makes me wanna vom
       </p>
-      <Figure src={festival} caption="Kiara fulling embracing the doof" />
-      <Figure src={samdoof} caption="I may have doofed a bit hard" />
+      <Figure
+        src={groovy}
+        caption="Super fun challenge, guess which one is me and Kiara"
+      />
+      <Figure
+        src={festival}
+        caption="Kiara was a lot quicker at embracing the doof..."
+      />
+      <Figure
+        src={samdoof}
+        caption="... but towards the end I may have doofed a bit too hard"
+      />
+      <Figure src={sunset} caption="Our last sunset in Australia :(" />
       <p>Bye bye my little flies</p>
     </Week>
   );
