@@ -13,7 +13,7 @@ export interface IWeek {
   children: React.ReactNode;
 }
 
-const maxWeekNum = 12;
+const maxWeekNum = 14;
 const combinedPostNums = [10];
 
 export function Week({
