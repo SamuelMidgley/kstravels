@@ -52,7 +52,7 @@ export function Week15() {
       <h2>Lake Tekapo ➡ Christchurch</h2>
       <p>
         We spent less than 24 hours here but that was still enough time to find
-        the nearest food market and stay there til it closed #noragrets.
+        the nearest food market and stay there til it closed #nopainnogain.
       </p>
       <Figure
         src={christchurch}
@@ -68,13 +68,10 @@ export function Week15() {
         caption="Now that is a gorgeous view, Kiara looks nice as well I guess"
       />
       <Figure src={manmakefire} caption="man make fire" />
-      <Figure
-        src={fire}
-        caption="We had another beach fire, this time with fish and chips"
-      />
+      <Figure src={fire} caption="this time with fish and chips" />
       <Figure
         src={deep}
-        caption="Kiara being the fitness icon she is got a deep fried brownie, nom nom"
+        caption="Kiara being the health queen she is got a deep fried brownie, nom nom"
       />
       <h2>Kaikōura ➡ Wellington (again)</h2>
       <p>
@@ -93,9 +90,10 @@ export function Week15() {
       />
       <Figure
         src={crazy}
-        caption="We managed to break a Kiwi Experience record and be the first people to get kicked out of the bar in Taupo 😎 #legends, you'd never have guessed it based off this photo"
+        caption="We managed to break a Kiwi Experience record and be the first people to get kicked out of the bar in Taupo 😎, you'd never have guessed it based off this photo"
       />
       <h2>Taupo ➡ Auckland</h2>
+      <p>The final bus journey of the year.</p>
       <Figure
         src={comfy}
         caption="As you can tell we were well and truly fed up with buses by this point"

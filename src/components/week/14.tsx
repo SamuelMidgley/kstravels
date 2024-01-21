@@ -29,11 +29,11 @@ export function WeekFourteen() {
       title="Week 14: We're going on an adventure 🧙‍♂️"
       imageUrl={week14}
       imageAlt="Check out Franz Josef glacier in the background"
-      datePosted={new Date(2023, 11, 15, 12)}
+      datePosted={new Date(2024, 0, 21, 12)}
     >
       <p>Kia ora koutou (Hello everyone)</p>
       <p>
-        Let's just ignore the fact it's been just over a month before the last
+        Let's just ignore the fact it's been just over a month since the last
         update...
       </p>
       <h2>Kaiteriteri</h2>
@@ -46,7 +46,7 @@ export function WeekFourteen() {
       <h2>Westport bestport</h2>
       <p>
         Along the way to Westport we went to Lake Rotoiti Jetty to get that
-        iconic jump.
+        iconic jump photo.
       </p>
       <Figure
         src={highfive}
@@ -58,7 +58,10 @@ export function WeekFourteen() {
         that's not a typo) and saw some pretty sites.
       </p>
       <Figure src={westport} caption="A lovely view of westport" />
-      <p>We then ended the day with a bonfire and some s'mores.</p>
+      <p>
+        We then ended the day driving past many no fire signs to set up a
+        bonfire and have some s'mores.
+      </p>
       <Figure src={smores} caption="Please sir can I have some s'more" />
       <h2>Franz Josef</h2>
       <p>
@@ -83,15 +86,19 @@ export function WeekFourteen() {
         src={kayak}
         caption="There may have been a wee bit of arguing during this activity regarding Kiara's knowledge of left and right (and general co-ordination)"
       />
+      <p>
+        We ended the day with some sightseeing of Franz Josef town and found irl
+        Garfield
+      </p>
       <Figure
         src={garfield}
         caption="The cover art for mine and Kiara's debut album"
       />
       <h2>Queenstown</h2>
-      <p>What a gorgeous drive this was...</p>
+      <p>It was a pretty spectacular drive from Franz Josef to Queenstown.</p>
       <Figure
         src={lakehawea}
-        caption="One of the stops on the way to Queenstown, Lake Hawea"
+        caption="Just looks straight out of a postcard (Lake Hawea)"
       />
       <p>
         Queenstown might honestly be the prettiest city we've ever been to. We
@@ -118,7 +125,10 @@ export function WeekFourteen() {
         While in Queenstown we had a hefty 12 hour day trip to Milford Sound
         (actually a Fjord).
       </p>
-      <Figure src={wee} caption="Insert funny caption" />
+      <Figure
+        src={wee}
+        caption="Being inspired by Lord of the Rings we tried some movie magic of our own to make me look giant. Judge for yourselves how well we did"
+      />
       <Figure src={reflection} caption="Such reflection many wow" />
       <Figure
         src={milford}
@@ -127,8 +137,8 @@ export function WeekFourteen() {
       <Figure src={fire} caption="It's giving 'Disaster girl' meme vibes" />
       <p>
         We got back just in time to do the kiwi experience pub crawl. Big fan of
-        a Queenstown night out. There was more dnb and teapots involved than I
-        was expecting but that's never a bad thing.
+        a Queenstown night out. There was more dnb and teapots than I was
+        expecting but that's never a bad thing.
       </p>
       <Figure src={icebar} caption="This bar was made of ice :O" />
       <Figure
