@@ -24,7 +24,7 @@ export function Week15() {
       title="Week 15: Zea(land) you later alligator"
       imageUrl={kaikoura}
       imageAlt="Kaikōura Peninsula walk"
-      datePosted={new Date(2023, 11, 15, 12)}
+      datePosted={new Date(2024, 0, 22, 22)}
     >
       <p>Hello Samiacs and Kiaranauts,</p>
       <p>

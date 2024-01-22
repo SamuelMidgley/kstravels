@@ -26,7 +26,7 @@ const posts: ICardProps[] = [
   {
     week: 15,
     title: "Week 15: Zea(land) you later alligator",
-    datePosted: new Date(2024, 0, 22, 12),
+    datePosted: new Date(2024, 0, 22, 22),
     imageUrl: week15img,
     imageAlt: "Kaikōura Peninsula walk",
   },
