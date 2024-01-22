@@ -20,7 +20,7 @@ import {
   WeekFourteen,
 } from "./components";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-// import { Week15 } from "./components/week/15";
+import { Week15 } from "./components/week/15";
 // import { Week16 } from "./components/week/16";
 
 const queryClient = new QueryClient();
@@ -69,8 +69,8 @@ function App() {
           <Route path="/week/13" element={<WeekThirteen />} />
           <Route path="/week/14" element={<WeekFourteen />} />
           <Route path="/week/14" element={<WeekFourteen />} />
-          {/* <Route path="/week/15" element={<Week15 />} />
-          <Route path="/week/16" element={<Week16 />} /> */}
+          <Route path="/week/15" element={<Week15 />} />
+          {/* <Route path="/week/16" element={<Week16 />} /> */}
         </Routes>
       </BrowserRouter>
     </QueryClientProvider>

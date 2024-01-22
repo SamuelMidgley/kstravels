@@ -12,7 +12,7 @@ import week10img from "../assets/week10.jpg";
 import week12img from "../assets/week12.jpg";
 import week13img from "../assets/week13.jpg";
 import week14img from "../assets/week14.jpg";
-// import week15img from "../assets/week15/kaikoura.jpg";
+import week15img from "../assets/week15/kaikoura.jpg";
 // import week16img from "../assets/week16/tanglewood.jpg";
 
 const posts: ICardProps[] = [
@@ -23,13 +23,13 @@ const posts: ICardProps[] = [
   //   imageUrl: week16img,
   //   imageAlt: "hmm",
   // },
-  // {
-  //   week: 15,
-  //   title: "Week 15: Zea(land) you later alligator",
-  //   datePosted: new Date(2024, 0, 4, 12),
-  //   imageUrl: week15img,
-  //   imageAlt: "Kaikōura Peninsula walk",
-  // },
+  {
+    week: 15,
+    title: "Week 15: Zea(land) you later alligator",
+    datePosted: new Date(2024, 0, 22, 12),
+    imageUrl: week15img,
+    imageAlt: "Kaikōura Peninsula walk",
+  },
   {
     week: 14,
     title: "Week 14: We're going on an adventure 🧙‍♂️",
