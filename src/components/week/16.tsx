@@ -17,7 +17,7 @@ export function Week16() {
       title="Week 16: You never forget your first (Doof)"
       imageUrl={tanglewood}
       imageAlt="Doof Doof Doof Doof"
-      datePosted={new Date(2023, 11, 15, 12)}
+      datePosted={new Date(2024, 0, 23, 12)}
     >
       <p>G'day mates we're back in Melbourne for the week!</p>
       <Figure
@@ -63,7 +63,14 @@ export function Week16() {
         src={samdoof}
         caption="... but towards the end I may have doofed a bit too hard"
       />
+      <p>
+        We then spent a few days back in Melbourne with Kiara's fam before
+        setting off on our next adventure.
+      </p>
       <Figure src={sunset} caption="Our last sunset in Australia :(" />
+      <p>
+        We're off to Bali next so stay tuned for some more exciting blog posts!
+      </p>
       <p>Bye bye my little flies</p>
     </Week>
   );
