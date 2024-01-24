@@ -14,8 +14,16 @@ import week13img from "../assets/week13.jpg";
 import week14img from "../assets/week14.jpg";
 import week15img from "../assets/week15/kaikoura.jpg";
 import week16img from "../assets/week16/tanglewood.jpg";
+import week17img from "@/assets/week17/cover.jpg";
 
 const posts: ICardProps[] = [
+  {
+    week: 17,
+    title: "Week 17: It's un-bali-evable",
+    datePosted: new Date(2024, 0, 24, 8),
+    imageUrl: week17img,
+    imageAlt: "Beautiful hotel",
+  },
   {
     week: 16,
     title: "Week 16: You never forget your first (Doof)",
