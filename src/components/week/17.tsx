@@ -13,7 +13,7 @@ import torte from "@/assets/week17/torte.jpg";
 export function Week17() {
   return (
     <Week
-      title="Week 17: It's un-bali-evable"
+      title="Week 17: It's un-bali-vable"
       datePosted={new Date(2024, 0, 24, 8)}
       imageUrl={cover}
       imageAlt="This cost less than a Premier inn outside the Trafford center..."

@@ -18,8 +18,29 @@ import week17img from "@/assets/week17/cover.jpg";
 
 const posts: ICardProps[] = [
   {
+    week: 20,
+    title: "Week 20: That's a wrap",
+    datePosted: new Date(2024, 0, 24, 8),
+    imageUrl: "",
+    imageAlt: "",
+  },
+  {
+    week: 19,
+    title: "Week 19: Gili boat rough",
+    datePosted: new Date(2024, 0, 24, 8),
+    imageUrl: "",
+    imageAlt: "",
+  },
+  {
+    week: 18,
+    title: "Week 18: Ubud to be kidding me",
+    datePosted: new Date(2024, 0, 24, 8),
+    imageUrl: "",
+    imageAlt: "",
+  },
+  {
     week: 17,
-    title: "Week 17: It's un-bali-evable",
+    title: "Week 17: It's un-bali-vable",
     datePosted: new Date(2024, 0, 24, 8),
     imageUrl: week17img,
     imageAlt: "Beautiful hotel",
